@@ -4,4 +4,14 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_dashboard">DashboardActivity</string>
     <string name="title_activity_promo">PromoActivity</string>
+    <string name="title_activity_promo_detail">PromoDetail</string>
+
+    <string name="str_menu_materna">Materna</string>
+    <string name="str_menu_ipromo">iPromo</string>
+    <string name="str_menu_checklist">Checklist</string>
+    <string name="str_menu_setari">Setari</string>
+    <string name="title_activity_materna">MaternaActivity</string>
+    <string name="title_activity_checklist">ChecklistActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_setari">SetariActivity</string>
 </resources>

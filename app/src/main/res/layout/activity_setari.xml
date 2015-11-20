@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:fitsSystemWindows="true"
-    tools:context="com.example.alexpetr.materna.PromoActivity">
+    tools:context="com.example.alexpetr.materna.SetariActivity">
 
     <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
         android:layout_width="match_parent"
@@ -119,23 +119,9 @@
                         android:textAlignment="center" />
                 </LinearLayout>
             </LinearLayout>
-
-
         </android.support.v7.widget.Toolbar>
-
-
-
-
-
-
-
     </android.support.design.widget.AppBarLayout>
 
-
-    <include layout="@layout/content_promo" />
-
-
-
-
+    <include layout="@layout/content_setari" />
 
 </android.support.design.widget.CoordinatorLayout>

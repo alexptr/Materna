@@ -85,15 +85,27 @@
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"
+                    android:orientation="vertical"
                     android:layout_weight="50"
                     android:layout_marginLeft="5dp"
-                    android:background="#ED78A8">
+                    android:background="#ED78A8"
+                    android:weightSum="100"
+                    android:onClick="goToSignup">
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="30dp"
-                        android:src="@drawable/signup" />
+                        android:layout_height="0dp"
+
+                        android:src="@drawable/signup"
+                        android:layout_weight="80"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="20"
+                        android:text="Sign Up"
+                        android:textColor="#ffffff"
+                        android:textSize="18dp"
+                        android:textAlignment="center"/>
 
                 </LinearLayout>
 

@@ -66,7 +66,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="50"
                     android:background="#F583B6"
-                    android:layout_margin="5dp">
+                    android:layout_margin="5dp"
+                    android:onClick="goToMaterna">
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -86,7 +87,8 @@
                         android:layout_height="match_parent"
                         android:layout_weight="50"
                         android:padding="30dp"
-                        android:src="@drawable/ipromo" />
+                        android:src="@drawable/ipromo"
+                        />
                 </LinearLayout>
 
 
@@ -118,7 +120,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="50"
                     android:background="#38A9E0"
-                    android:layout_margin="5dp">
+                    android:layout_margin="5dp"
+                    android:onClick="goToSetari">
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"

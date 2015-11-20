@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_setari"
+    tools:context="com.example.alexpetr.materna.SetariActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="80"
+                android:text="Setting 1"
+                android:textSize="30sp"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="New ToggleButton"
+                android:id="@+id/toggleButton1"
+                android:layout_weight="20"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="80"
+                android:text="Setting 2"
+                android:textSize="30sp"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="New ToggleButton"
+                android:id="@+id/toggleButton2"
+                android:layout_weight="20"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="80"
+                android:text="Setting 3"
+                android:textSize="30sp"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="New ToggleButton"
+                android:id="@+id/toggleButton3"
+                android:layout_weight="20"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

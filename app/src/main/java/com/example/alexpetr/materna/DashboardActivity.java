@@ -25,4 +25,16 @@ public class DashboardActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void goToMaterna(View view)
+    {
+        Intent intent = new Intent(this, MaternaActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToSetari(View view)
+    {
+        Intent intent = new Intent (this, SetariActivity.class);
+        startActivity(intent);
+    }
+
 }
