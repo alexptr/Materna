@@ -14,4 +14,9 @@
     <string name="title_activity_checklist">ChecklistActivity</string>
     <string name="title_activity_signup">SignupActivity</string>
     <string name="title_activity_setari">SetariActivity</string>
+
+    <string name="parse_app_id">2XRoCp4XmRTg52K0NC40JO04iQ3NgrpN7SN0KHOX</string>
+    <string name="parse_client_key">pukuWB5JK4ztwRNpgyym3F0bT9XYTogZDCKuTE3o</string>
+
+
 </resources>

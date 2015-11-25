@@ -3,13 +3,26 @@
     package="com.example.alexpetr.materna" >
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
+        android:name=".Globals"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+
+
+
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="TwFnRaYcy14yKcTGjIp5p2Fr7OlBqhtBkclb8kjf" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="xLRGE9zTgnCnuIxa4l1GznppWpRVYMI2sc65eODt" />
+
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -56,6 +69,7 @@
         <activity
             android:name=".SignupActivity"
             android:label="@string/title_activity_signup"
+            android:noHistory="true"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity

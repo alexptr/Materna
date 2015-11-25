@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.parse.ParseObject;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,8 +46,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void goToLogin(View view)
     {
+
+
+
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
-        //http://developer.android.com/training/basics/firstapp/starting-activity.html
+
     }
 }
